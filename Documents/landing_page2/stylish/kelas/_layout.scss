@@ -1,0 +1,116 @@
+.body{
+  width: 100%;
+  box-sizing: border-box;
+  .left{
+    width: 45%;
+    height: 68vw;
+    background: linear-gradient(45deg, $soft-primary, $dark-primary);
+    background-position: right;
+    background-size: 400%;
+    align-items: center;
+    display: flex;
+    float: left;
+    justify-content: center;
+    img{
+      width: 75%;
+      height: auto;
+      margin-top: 10vw;
+    }
+  }
+  .right{
+    font-family: $body-font;
+    width: 55%;
+    height: 50vw;
+    float: left;
+    .content{
+      width: 90%;
+      height: 40vw;
+      padding-left: 10%;
+      .judul{
+        width: 100%;
+        height: 5vw;
+        font-size: 3vw;
+        color: $dark-primary;
+        margin-bottom: 6vw;
+        margin-top: 18%;
+        h1{
+          font-weight: 700;
+        }
+      }
+      .paraf{
+        p{
+          color: $gray-neutral;
+          font-size: 1.3vw;
+          font-weight: 400;
+          width: 80%;
+        }
+      }
+      .subs{
+        margin-top: 7vw;
+        font-size: 1.5vw;
+        color: $dark-primary;
+        .mail{
+          width: 50%;
+          height: 4vw;
+          margin-top: 1vw;
+          background: white;
+          outline-color: none;
+          box-shadow: 3px 3px 8px $soft-primary;
+          border: none;
+          margin-right: 1vw;
+        }
+        .tombol{
+          width: 30%;
+          background: $green-accent;
+          color: white;
+          border: none;
+          height: 4vw;
+          font-size: 1.3vw;
+          line-height: 4vw;
+          font-weight: 700;
+        }
+      }
+    }
+    .privacy{
+      width: 97%;
+      display: flex;
+      justify-content: flex-end;
+      color: $dark-primary;
+      padding-right: 3%;
+      a{
+        color: $dark-primary;
+        font-weight: 700;
+      }
+    }
+  }
+  .row::before{
+    content: "";
+    clear: both;
+    display: table;
+  }
+  header{
+    width: 100%;
+    height: 14vw;
+    display: flex;
+    align-items: center;
+    font-family: $head-font;
+    .brand{
+      width: 25%;
+      display: flex;
+      justify-content: flex-end;
+    }
+    .social{
+      width: 75%;
+      display: flex;
+      justify-content: flex-end;
+      .sc{
+        width: 40%;
+        a{
+          margin: 0 8% 0 8%;
+          font-size: 2vw;
+          color: black;
+        }
+      }
+    }
+  }
+}

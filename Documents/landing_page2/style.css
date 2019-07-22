@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.body {
+  width: 100%;
+  box-sizing: border-box;
+}
+.body .left {
+  width: 45%;
+  height: 68vw;
+  background: linear-gradient(45deg, #bbb8fa, #070439);
+  background-position: right;
+  background-size: 400%;
+  align-items: center;
+  display: flex;
+  float: left;
+  justify-content: center;
+}
+.body .left img {
+  width: 75%;
+  height: auto;
+  margin-top: 10vw;
+}
+.body .right {
+  font-family: "Open Sans", sans-serif;
+  width: 55%;
+  height: 50vw;
+  float: left;
+}
+.body .right .content {
+  width: 90%;
+  height: 40vw;
+  padding-left: 10%;
+}
+.body .right .content .judul {
+  width: 100%;
+  height: 5vw;
+  font-size: 3vw;
+  color: #070439;
+  margin-bottom: 6vw;
+  margin-top: 18%;
+}
+.body .right .content .judul h1 {
+  font-weight: 700;
+}
+.body .right .content .paraf p {
+  color: gray;
+  font-size: 1.3vw;
+  font-weight: 400;
+  width: 80%;
+}
+.body .right .content .subs {
+  margin-top: 7vw;
+  font-size: 1.5vw;
+  color: #070439;
+}
+.body .right .content .subs .mail {
+  width: 50%;
+  height: 4vw;
+  margin-top: 1vw;
+  background: white;
+  outline-color: none;
+  box-shadow: 3px 3px 8px #bbb8fa;
+  border: none;
+  margin-right: 1vw;
+}
+.body .right .content .subs .tombol {
+  width: 30%;
+  background: #05d69b;
+  color: white;
+  border: none;
+  height: 4vw;
+  font-size: 1.3vw;
+  line-height: 4vw;
+  font-weight: 700;
+}
+.body .right .privacy {
+  width: 97%;
+  display: flex;
+  justify-content: flex-end;
+  color: #070439;
+  padding-right: 3%;
+}
+.body .right .privacy a {
+  color: #070439;
+  font-weight: 700;
+}
+.body .row::before {
+  content: "";
+  clear: both;
+  display: table;
+}
+.body header {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  align-items: center;
+  font-family: "Raleway", sans-serif;
+}
+.body header .brand {
+  width: 25%;
+  display: flex;
+  justify-content: flex-end;
+}
+.body header .social {
+  width: 75%;
+  display: flex;
+  justify-content: flex-end;
+}
+.body header .social .sc {
+  width: 40%;
+}
+.body header .social .sc a {
+  margin: 0 8% 0 8%;
+  font-size: 2vw;
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */
